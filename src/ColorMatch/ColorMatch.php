@@ -513,7 +513,7 @@ class ColorMatch extends PluginBase implements Listener{
                     return;
             }
             $args = explode(' ', $msg);
-            if((count($args) >= 1) && (count($args) <= 2)) {
+            if((count($args) => 1) && (count($args) <= 2)) {
                 if($args[0] === 'help') {
                     $help1 = $this->getMsg('help_joinsign')
                             . $this->getMsg('help_returnsign')
