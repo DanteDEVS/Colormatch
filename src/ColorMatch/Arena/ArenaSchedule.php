@@ -5,6 +5,7 @@ namespace ColorMatch\Arena;
 use pocketmine\scheduler\Task;
 use pocketmine\tile\Sign;
 use pocketmine\math\Vector3;
+use scoreboards\scoreboards;
 
 class ArenaSchedule extends Task{
     
